@@ -1,0 +1,40 @@
+# macOS system files
+.DS_Store
+
+# Python (FastAPI backend)
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+.env
+
+# FastAPI specific logs or uploads
+*.log
+*.sqlite3
+instance/
+
+# Node (Vite frontend)
+node_modules/
+dist/
+.env.local
+.env.development
+.env.production
+.vite/
+*.tsbuildinfo
+
+# Docker
+*.pid
+*.pid.lock
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Postgres data (if running locally without Docker volumes)
+pgdata/
+
+# OS-generated files
+Thumbs.db
